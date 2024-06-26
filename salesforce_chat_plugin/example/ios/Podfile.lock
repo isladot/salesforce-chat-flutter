@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - Messaging-InApp-Core (1.6.0)
+  - Messaging-InApp-UI (1.6.0):
+    - Messaging-InApp-Core (= 1.6.0)
+  - salesforce_chat_ios (0.0.1):
+    - Flutter
+    - Messaging-InApp-UI
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - salesforce_chat_ios (from `.symlinks/plugins/salesforce_chat_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Messaging-InApp-Core
+    - Messaging-InApp-UI
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  salesforce_chat_ios:
+    :path: ".symlinks/plugins/salesforce_chat_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  Messaging-InApp-Core: f698a3240be60fc43b70fd1c63ab5c674a085e58
+  Messaging-InApp-UI: 325c96be79a43c7458ab169c335ba87a44f3fd62
+  salesforce_chat_ios: 79b6335a32ea28442a18444829c19516d4e4e5e8
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2

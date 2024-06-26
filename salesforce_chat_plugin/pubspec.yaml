@@ -1,0 +1,29 @@
+name: salesforce_chat_plugin
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage:
+publish_to: "none"
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  salesforce_chat_platform_interface:
+    path: ../salesforce_chat_platform_interface
+  salesforce_chat_ios:
+    path: ../salesforce_chat_ios
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        default_package: salesforce_chat_ios
